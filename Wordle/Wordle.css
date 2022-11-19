@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.Heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size:200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Grid{
+    align-items: center;
+}
+.g1{
+display:flex;
+justify-content:center;
+}
+.b1{
+    border: 2px solid rgb(22, 132, 206);
+    text-align: center;
+    align-items:center;
+    color: rgb(139, 0, 19);
+    width:2%;
+  
+   padding:2%;
+   margin:0.1%;
+    font-size:150%;
+    font-weight: bold;
+}
+
+.yellow{
+    background-color:r#c9b458;
+}
+.voilet{
+    background-color:#939598;
+}
+.green{
+    background-color:#538d4e;
+}
+.keyboard{
+    align-items: center;
+  margin: auto;
+  padding:1%;
+}
+.row{
+    display:flex;
+justify-content:center;
+}
+.keys{
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgb(19, 9, 172);
+    color:rgb(255, 255, 255);
+    font-size:110%;
+    border-radius:2px;
+    max-width: fit-content;
+   justify-items: left;
+    margin: 0.1%;
+    justify-content: start;  
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .movie1 {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+
